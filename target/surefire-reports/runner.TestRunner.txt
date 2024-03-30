@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 22.42 s <<< FAILURE! -- in runner.TestRunner
+General View.Validate general user is able to view after products logging in -- Time elapsed: 0.781 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User navigates to the online products page' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User navigates to the online products page")
+public void user_navigates_to_the_online_products_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User clicks on formal Shoes drop down")
+public void user_clicks_on_formal_shoes_drop_down() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should be able to view the Products")
+public void user_should_be_able_to_view_the_products() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+New User Registration View.Validate new user is able to view after clicking on new Registration -- Time elapsed: 8.911 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User clicks on new Registration button' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("User clicks on new Registration button")
+public void user_clicks_on_new_registration_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should be able to view the Registration page")
+public void user_should_be_able_to_view_the_registration_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
